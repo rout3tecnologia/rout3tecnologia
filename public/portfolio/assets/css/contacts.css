@@ -1,0 +1,99 @@
+html
+body{
+    background-image: url(earth.gif);
+    background-color:white;
+    background-size:cover;
+    background-position: cover;
+}
+.button{
+    display:inline-flex;
+    padding:10px 20px;
+    background-color: none;
+    color:#fff;
+    border-radius:30px;
+    cursor:pointer;
+    transition:transform .3s ease;
+    position:center;
+    text-decoration:none;
+}
+.button:hover{
+    transform:scale(1.1);
+    background-color:none;
+
+}
+.text{
+  color: white
+  
+}
+.frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 420px;
+    position: relative;
+    margin: 10px auto;
+    box-shadow:inset 2px 2px 2px 0px rgba(42,57,68,.5),
+      inset -7px -7px 10px 0px rgba(0,0,0,.1),
+     7px 7px 20px 0px rgba(0,0,0,1),
+     4px 4px 5px 0px rgba(0,0,0,1);
+   transition: 0.6s cubic-bezier(.79,.21,.06,.81);
+     border-radius: 10px;
+     color:white
+  }
+  
+  .btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    box-shadow:inset 2px 2px 2px 0px rgba(42,57,68,.5),
+      inset -7px -7px 10px 0px rgba(0,0,0,.1),
+     7px 7px 20px 0px rgba(0,0,0,1),
+     4px 4px 5px 0px rgba(0,0,0,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   transition: 0.6s cubic-bezier(.79,.21,.06,.81);
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .btn:active{
+    box-shadow:  4px 4px 6px 0 rgba(42,57,68,.4),
+                -4px -4px 6px 0 rgba(0, 0, 0, 1), 
+      inset -4px -4px 6px 0 rgba(0, 0, 0, 1),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  }
+     
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-child {
+        display: none;
+        padding:10px 20px;
+        background-color:white;
+        color:white;
+        border-radius:20px;
+        cursor:pointer;
+        transition:transform .3s ease;
+        position:center;
+        text-decoration:none;
+    }
+    .dropdown-child a {
+        padding:10px 20px;
+        background-color: black;
+        color:white;
+        border-radius:30px;
+        cursor:pointer;
+        transition:transform .3s ease;
+        position:center;
+        text-decoration:none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-child {
+        display: block;
+    }
+    
